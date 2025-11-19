@@ -1,4 +1,10 @@
 import csv  #staat hier voor de functie read_tasks_from_cvc rond line 68
+class Node:
+    def __init__(self, task_name, duration, priority): #ne constructor die werkt met zijn element e
+        self.task_name = task_name
+        self.duration = duration
+        self.priority = priority
+        self.next = None
 
 class LinkedList:
     def __init__(self):
@@ -266,10 +272,4 @@ class LinkedList:
 
 
 
-class Node:
-    def __init__(self, task_name, duration, priority): #ne constructor die werkt met zijn element e
-        self.task_name = task_name
-        self.duration = duration
-        self.priority = priority
-        self.next = None
 

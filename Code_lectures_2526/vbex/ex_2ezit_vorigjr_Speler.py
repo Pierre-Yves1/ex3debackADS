@@ -1,3 +1,5 @@
+#https://dodona.be/nl/activities/962940240/
+
 class Player:
     def __init__(self, name, number):
         self.name = name

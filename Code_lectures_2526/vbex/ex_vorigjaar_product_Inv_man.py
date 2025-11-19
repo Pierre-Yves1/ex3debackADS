@@ -1,4 +1,4 @@
-
+#MET STACK
 class Batch:
     def __init__(self, quantity, cost_per_unit):
         self.quantity = quantity # hoeveelheid van het product in deze batch
